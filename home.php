@@ -10,7 +10,9 @@
 
   // Verifica se está logado ou não
   if(!isset($_SESSION['logedin'])){
+   
     header('Location: index.php');
+  
   }
 
   // Dados
