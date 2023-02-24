@@ -26,7 +26,7 @@ body{
 }
 
 .error{
-  color: #28392D
+  color: red
 }
 
 #title{
@@ -71,7 +71,7 @@ input{
 }
 
 input::placeholder{
-  color: #111;
+  color: #28392D;
 }
 
 input[type="text"], 
@@ -98,13 +98,21 @@ input[type="password"]:focus{
 .checkbox input {
   margin-left: 95px;
   margin-right: 20px;
-  border:0;
+  border:none;
   width: 15px;
   height: 15px;
   vertical-align: middle;
+  cursor: pointer;
+}
+
+.checkbox_input{
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
 }
 
 .label_showpass {
+  color: #28392D;
   padding-top: 4px;
 }
 

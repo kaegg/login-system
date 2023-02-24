@@ -63,6 +63,7 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <script src="assets/js/index.js"></script>
   <title>Login system</title>
+  <link rel="shortcut icon" href="assets/img/user.png" type="image/x-icon">
 </head>
 <body>
   <div class="login-box">
@@ -84,7 +85,7 @@
     <input id="username_input" class="center" type="text" name="login" placeholder="Username or E-mail"><br>
     <input id="password_input" class="center" type="password" name="password" placeholder="Password">
     <div class="checkbox">
-      <input class="checkbox-input" type="checkbox" name="showpass" onclick="showPassword()">
+      <input class="checkbox_input" type="checkbox" name="showpass" onclick="showPassword()">
       <label class="label_showpass" for="showpass">Show Password</label>
     </div>
     <button id="button" type="submit" name="btn-login">Log In</button>
