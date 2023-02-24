@@ -64,7 +64,8 @@ input{
   width:300px;
   height: 40px;
   margin:5px auto;
-  background-color: rgba(255, 255, 255, 0.3);
+  background: none;
+  /* background-color: rgba(255, 255, 255, 0.3); */
   border:0;
   border-bottom: 2px solid #28392D;
 }
