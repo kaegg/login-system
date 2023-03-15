@@ -39,7 +39,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `login`, `password`) VALUES
-(1, 'Kauan', 'Admin', '70ec977197b87337758fe1408a0183de'),
+(1, 'Kauan', 'Admin', 'e10adc3949ba59abbe56e057f20f883e'),
 (2, 'Ana', 'example@example.com', 'e10adc3949ba59abbe56e057f20f883e');
 
 --
