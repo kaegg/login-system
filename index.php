@@ -101,7 +101,7 @@
       </div>
       <button id="button" type="submit" name="btn-login">Log In</button>
     </form>
-      <p class="center">Not member yet? <a href="#">Subscribe now</a></p>
+      <p class="center">Not member yet? <a href="subscribe.php">Subscribe now</a></p>
   </div>
 </body>
 </html>
